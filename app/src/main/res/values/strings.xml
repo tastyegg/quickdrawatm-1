@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuickDrawATM</string>
+    <string name="action_settings">Settings</string>
+    <string name="depositButton">Deposit</string>
+    <string name="withdrawButton">Withdraw</string>
+    <string name="accountButton">View Account</string>
+</resources>

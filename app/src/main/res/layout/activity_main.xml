@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_history"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom"
+    tools:context="com.quickdraw.quickdrawatm.MainActivity">
+
+    <TextView
+        android:text="ATM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="100dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/titlebox"
+        android:layout_marginTop="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="ANDROID BEAM\nTRANSACTION HERE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="113dp"
+        android:id="@+id/textView2"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="721px"
+        android:layout_height="288px"
+        app:srcCompat="@drawable/transactionbox"
+        android:id="@+id/transactionbox"
+        android:layout_marginTop="90dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="320px"
+        app:srcCompat="@color/custom2"
+        android:id="@+id/imageView3"
+        android:translationZ="-1dp"
+        android:layout_above="@+id/poweredby"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="powered by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:alpha="1"
+        android:id="@+id/poweredby"
+        android:layout_below="@+id/titlebox"
+        android:layout_alignEnd="@+id/titlebox"
+        android:layout_marginTop="9dp" />
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        app:srcCompat="@drawable/qdlogo4"
+        android:alpha="1"
+        android:id="@+id/logo"
+        android:layout_marginStart="38dp"
+        android:layout_below="@+id/poweredby"
+        android:layout_alignStart="@+id/poweredby"
+        android:layout_marginTop="9dp" />
+
+
+</RelativeLayout>
